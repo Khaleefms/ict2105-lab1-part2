@@ -1,0 +1,68 @@
+shell@hlte:/ $ top -m 15 -n 3  
+ 
+ 
+ 
+User 0%, System 2%, IOW 0%, IRQ 0% 
+User 6 + Nice 0 + Sys 35 + Idle 1299 + IOW 0 + IRQ 0 + SIRQ 0 = 1340 
+ 
+  PID PR CPU% S  #THR     VSS     RSS PCY UID      Name 
+ 5175  3   2% R     1   2604K    948K     shell    top 
+ 4334  1   0% S     1      0K      0K     root     kworker/u:2 
+ 1184  2   0% S    50 1082784K 233240K  fg radio    com.android.phone 
+    3  0   0% S     1      0K      0K     root     ksoftirqd/0 
+ 2215  0   0% S     6   7284K    512K     root     /system/bin/mpdecision 
+  276  2   0% S    15 144412K   9412K  fg system   /system/bin/surfaceflinger 
+  845  0   0% S   137 1187548K 169920K  fg system   system_server 
+ 4747  3   0% S    33 943856K  56936K  bg u0_a219  com.yahoo.mobile.client.android.atom 
+ 1047  1   0% S    41 1084064K 147824K  fg u0_a57   com.android.systemui 
+   30  1   0% S     1      0K      0K     root     smsm_cb_wq 
+   32  1   0% S     1      0K      0K     root     rpm-smd 
+   33  1   0% S     1      0K      0K     root     kworker/u:1H 
+   34  1   0% S     1      0K      0K     root     subsys_panic_wq 
+   35  1   0% S     1      0K      0K     root     mpm 
+   37  0   0% S     1      0K      0K     root     sync_supers 
+ 
+ 
+ 
+User 0%, System 2%, IOW 0%, IRQ 0% 
+User 7 + Nice 0 + Sys 30 + Idle 1305 + IOW 0 + IRQ 0 + SIRQ 0 = 1342 
+ 
+  PID PR CPU% S  #THR     VSS     RSS PCY UID      Name 
+ 5175  3   2% R     1   2616K    948K     shell    top 
+ 3027  3   0% S     1      0K      0K     root     ksoftirqd/3 
+    3  0   0% S     1      0K      0K     root     ksoftirqd/0 
+    6  2   0% D     1      0K      0K     root     kworker/u:0 
+    7  0   0% D     1      0K      0K     root     kworker/u:0H 
+    8  0   0% S     1      0K      0K     root     migration/0 
+   21  1   0% S     1      0K      0K     root     khelper 
+   22  1   0% S     1      0K      0K     root     netns 
+   28  1   0% S     1      0K      0K     root     modem_notifier 
+   29  1   0% S     1      0K      0K     root     smd_channel_clo 
+   30  1   0% S     1      0K      0K     root     smsm_cb_wq 
+   32  1   0% S     1      0K      0K     root     rpm-smd 
+   33  1   0% S     1      0K      0K     root     kworker/u:1H 
+   34  1   0% S     1      0K      0K     root     subsys_panic_wq 
+   35  1   0% S     1      0K      0K     root     mpm 
+ 
+ 
+ 
+User 0%, System 2%, IOW 0%, IRQ 0% 
+User 8 + Nice 0 + Sys 35 + Idle 1302 + IOW 0 + IRQ 0 + SIRQ 0 = 1345 
+ 
+  PID PR CPU% S  #THR     VSS     RSS PCY UID      Name 
+ 5175  3   2% R     1   2616K    948K     shell    top 
+  845  0   0% S   137 1187548K 169920K  fg system   system_server 
+26323  0   0% S     1      0K      0K     root     kworker/u:6 
+12950  0   0% S     5   4596K    208K     shell    /sbin/adbd 
+ 4334  1   0% S     1      0K      0K     root     kworker/u:2 
+ 1184  2   0% S    50 1082784K 233240K  fg radio    com.android.phone 
+ 3030  3   0% S     1      0K      0K     root     kworker/3:0 
+   22  1   0% S     1      0K      0K     root     netns 
+   28  1   0% S     1      0K      0K     root     modem_notifier 
+   29  1   0% S     1      0K      0K     root     smd_channel_clo 
+   30  1   0% S     1      0K      0K     root     smsm_cb_wq 
+   32  1   0% S     1      0K      0K     root     rpm-smd 
+   33  1   0% S     1      0K      0K     root     kworker/u:1H 
+   34  1   0% S     1      0K      0K     root     subsys_panic_wq 
+   35  1   0% S     1      0K      0K     root     mpm 
+shell@hlte:/ $ exit  
