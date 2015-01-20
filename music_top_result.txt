@@ -1,0 +1,17 @@
+shell@hlte:/ $ top -m 10 -n 1  
+
+User 22%, System 13%, IOW 0%, IRQ 0% 
+User 96 + Nice 1 + Sys 57 + Idle 281 + IOW 0 + IRQ 0 + SIRQ 0 = 435 
+ 
+  PID PR CPU% S  #THR     VSS     RSS PCY UID      Name 
+ 2233  0  18% S    18 931044K  59124K  bg u0_a48   com.vlingo.midas 
+12929  3   5% R     1   2608K    948K     shell    top 
+  840  0   5% S   133 1133400K 147396K  fg system   system_server 
+ 1243  2   1% S    14 928672K  58096K  fg u0_a26   android.process.acore 
+ 1431  0   0% S    64 1142892K  88008K  fg u0_a60   com.google.android.gms 
+ 2217  0   0% S     6   7284K    500K     root     /system/bin/mpdecision 
+10349  0   0% S    27 956212K  64220K  fg u0_a159  com.google.android.music:main 
+  271  0   0% S    18  85892K  22560K  fg media    /system/bin/mediaserver 
+  954  0   0% S     1      0K      0K     root     kworker/u:6 
+  167  0   0% S     1      0K      0K     root     w1_bus_master1 
+shell@hlte:/ $ exit  

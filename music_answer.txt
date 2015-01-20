@@ -1,0 +1,7 @@
+Processes activated once Google Play Music application is started:
+com.google.android.music:ui
+com.google.android.music:main
+
+The processes which play the music is as follow:
+com.sec.android.app.soundalive
+com.sec.android.app.music:service
